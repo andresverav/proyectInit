@@ -19,7 +19,7 @@ git add archivo1
 git status (verde)
 git commit -m "comit"
 git log
-git push -u origin master
+git push -u origin master (la rama master o mara1)
 
 git branch
 git branch prueba1 (crea rama)
