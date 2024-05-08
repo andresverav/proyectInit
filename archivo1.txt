@@ -1,1 +1,30 @@
 hola mundo
+
+
+proyectossisc@integritysolution.com.ec
+
+git remote add origin https://github.com/andresverav/ProyectPython.git
+git remote set-url origin git@github.com:username/projectname.git
+
+git remote set-url origin https://github.com/andresverav/ProyectPython.git
+
+
+
+git init
+git config --global user.name "andresverav"
+git config --global user.email andresverav78@gmail.com
+git remote add origin https://github.com/andresverav/proyectInit.git
+git status (rojo)
+git add archivo1
+git status (verde)
+git commit -m "comit"
+git log
+git push -u origin master
+
+git branch
+git branch prueba1 (crea rama)
+git checkout  prueba1 (cambio de rama)
+git branch
+
+git branch -d prueba1 (elimina rama pero tiene q estar en otra rama)
+
