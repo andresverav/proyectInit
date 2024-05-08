@@ -34,4 +34,4 @@ git branch -d rama1(elimina rama pero tiene q estar en otra rama)
 --fusionar rama
 git merge rama1 master (si tiene q estar en la rama que va a recibir la actualizacion)
 o
-git merger master rama1
+git merge master rama1
