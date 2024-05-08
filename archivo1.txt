@@ -21,10 +21,17 @@ git commit -m "comit"
 git log
 git push -u origin master (la rama master o mara1)
 
+--actualizar la rama
+git pull -u origim master
+
 git branch
-git branch prueba1 (crea rama)
-git checkout  prueba1 (cambio de rama)
+git branch rama1(crea rama)
+git checkout  rama1(cambio de rama)
 git branch
 
-git branch -d prueba1 (elimina rama pero tiene q estar en otra rama)
+git branch -d rama1(elimina rama pero tiene q estar en otra rama)
 
+--fusionar rama
+git merge rama1 master (si tiene q estar en la rama que va a recibir la actualizacion)
+o
+git merger master rama1
